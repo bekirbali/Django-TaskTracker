@@ -6,4 +6,4 @@ class TodoSerializer(serializers.ModelSerializer):
         model = Todo
         # fields = '__all__'
         # fields = ['title']
-        exclude = ['created','updated']
+        exclude = ['created','updated','priority']
